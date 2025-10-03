@@ -79,13 +79,13 @@ export const NavBar: React.FC = () => {
       <div className="w-full flex items-center justify-between">
         {/* Brand */}
         <div className="flex items-center gap-3">
-          <Link href="/" className="text-blue-600 font-bold text-2xl">
+          <Link href="/" className="text-blue-600 font-extrabold text-2xl">
             TenaDoc
           </Link>
         </div>
 
         {/* Desktop nav (no icons) */}
-        <nav className="hidden md:flex items-center gap-8 text-md">
+        <nav className="hidden md:flex items-center gap-12 text-md">
           {navlinks.map((nl) => (
             <Link
               key={nl.link}
@@ -101,11 +101,11 @@ export const NavBar: React.FC = () => {
         <div className="hidden md:flex items-center gap-4">
           <Button
             asChild
-            className="bg-white text-black border border-gray-200"
+            className="bg-white text-black border border-gray-200 hover:bg-neutral-200"
           >
             <Link href="/login">Login</Link>
           </Button>
-          <Button asChild className="bg-blue-600 text-white">
+          <Button asChild className="bg-blue-600 text-white hover:bg-blue-500">
             <Link href="/signup">Signup</Link>
           </Button>
         </div>

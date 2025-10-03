@@ -21,7 +21,7 @@ const features = [
   },
   {
     icon: VscWorkspaceTrusted,
-    title: "VPrivate & Confidential",
+    title: "Private & Confidential",
     desc: "Your medical information is encrypted and protected at all times.",
   },
 ];

@@ -49,9 +49,7 @@ export const Testimonials: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="flex flex-col items-center gap-4 mb-10 text-center">
-          <h4 className="text-base font-semibold text-blue-600">
-            Testimonials
-          </h4>
+          <h4 className="text-2xl font-bold text-blue-600">Testimonials</h4>
           <h2 className="text-3xl sm:text-4xl font-bold text-black">
             What our users say
           </h2>
